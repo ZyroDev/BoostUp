@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: https://ogp.me/ns#">
+<head>
+  <title>BoostUp - Boostez Vos Projets</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="BoostUp est le premier site de référencement qui vous propose de booster votre contenu gratuitement !">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Zyro"/>
+  <meta property="og:title" content="BoostUp" />
+  <meta property="og:url" content="https://boostup.tk" />
+  <meta name="keywords" content="référencement, seo, boostUp, BoostUp, publicité gratuite" />
+  <meta property="og:description" content="BoostUp est le premier site de référencement qui vous propose de booster votre contenu gratuitement !" />
+  <meta property="og:site_name" content="BoostUp" />
+  <meta name="google-site-verification" content="ghDmqP85d6fTCgpGx_MS2TMYw2ezfe78FefzsAuy2jc" />
+  <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.css">
+  <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="assets/vendors/aos/css/aos.css">
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <link rel="stylesheet" href="./assets/css/customize/style.css">
+  <style>
+    .img-brand-logo {
+      width: 40%;
+      height: 40%;
+    }
+    .img-logo-footer {
+      width: 30%;
+    }
+    html,
+body {
+  height: 100%;
+}
+body {
+  display: grid;
+  font-family: Avenir;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+.inp {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 280px;
+  height: 53px;
+}
+.inp .border {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 18px;
+  fill: none;
+}
+.inp .border path {
+  stroke: #c8ccd4;
+  stroke-width: 2;
+}
+.inp .border path d {
+  transition: all 0.2s ease;
+}
+.inp .check {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: none;
+  transform: translate(0, 9px) scale(0);
+  transition: all 0.3s cubic-bezier(0.5, 0.9, 0.25, 1.3);
+  transition-delay: 0.15s;
+}
+.inp .check path {
+  stroke: #07f;
+  stroke-width: 2;
+}
+.inp input {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 0;
+  font-family: inherit;
+  padding: 0;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  background: none;
+  border-radius: 0;
+  color: #223254;
+  transition: all 0.15s ease;
+}
+.inp input:focus {
+  outline: none;
+}
+.inp input:focus + .border path {
+  stroke: #07f;
+}
+.inp input:valid + .border path {
+  animation: elasticInput 0.8s ease forwards;
+}
+.inp input:valid + .border + .check {
+  transform: translate(0, 0) scale(1);
+}
+::placeholder {
+  color: #9098a9;
+}
+@-moz-keyframes elasticInput {
+  33% {
+    d: path("M0,12 L226,12 C220,12 220.666667,12 228,12 C239,12 245,1 253,1 C261,1 268,12 278,12 C284.666667,12 285.333333,12 280,12");
+  }
+  66% {
+    d: path("M0,12 L226,12 C220,12 220.666667,12 228,12 C239,12 245,17 253,17 C261,17 268,12 278,12 C284.666667,12 285.333333,12 280,12");
+  }
+}
+@-webkit-keyframes elasticInput {
+  33% {
+    d: path("M0,12 L226,12 C220,12 220.666667,12 228,12 C239,12 245,1 253,1 C261,1 268,12 278,12 C284.666667,12 285.333333,12 280,12");
+  }
+  66% {
+    d: path("M0,12 L226,12 C220,12 220.666667,12 228,12 C239,12 245,17 253,17 C261,17 268,12 278,12 C284.666667,12 285.333333,12 280,12");
+  }
+}
+@-o-keyframes elasticInput {
+  33% {
+    d: path("M0,12 L226,12 C220,12 220.666667,12 228,12 C239,12 245,1 253,1 C261,1 268,12 278,12 C284.666667,12 285.333333,12 280,12");
+  }
+  66% {
+    d: path("M0,12 L226,12 C220,12 220.666667,12 228,12 C239,12 245,17 253,17 C261,17 268,12 278,12 C284.666667,12 285.333333,12 280,12");
+  }
+}
+@keyframes elasticInput {
+  33% {
+    d: path("M0,12 L226,12 C220,12 220.666667,12 228,12 C239,12 245,1 253,1 C261,1 268,12 278,12 C284.666667,12 285.333333,12 280,12");
+  }
+  66% {
+    d: path("M0,12 L226,12 C220,12 220.666667,12 228,12 C239,12 245,17 253,17 C261,17 268,12 278,12 C284.666667,12 285.333333,12 280,12");
+  }
+}
+
+  </style>
+  <script data-ad-client="ca-pub-9133888744382601" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <header id="header-section">
+    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+    <div class="container">
+      <div class="navbar-brand-wrapper d-flex w-100">
+        <img src="assets/img/logo.png" class="img-brand-logo" alt="">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="mdi mdi-menu navbar-toggler-icon"></span>
+        </button> 
+      </div>
+      <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+        <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+          <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+            <div class="navbar-collapse-logo">
+              <img src="./assets/img/logo.png" class="img-brand-logo" style="width: 5px;" alt="">
+            </div>
+            <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ref.html">Référencement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="add.html">Ajouter</a>  
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="soon.html">Messagerie</a>
+          </li>
+          <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+            <a href="login.html"><button class="btn btn-info">Se connecter</button></a>
+          </li>
+        </ul>
+      </div>
+    </div> 
+    </nav>   
+  </header>
+  <div class="profile-pic-div">
+    <img src="assets/img/profile.jpg" id="photo">
+    <input type="file" id="file">
+    <label for="file" id="uploadBtn">Choisir Une Photo</label>
+   
+  </div>
+  <label for="inp" class="inp">
+    <input type="text" id="inp" placeholder="Bio" pattern=".{6,}" required>
+    <svg width="280px" height="18px" viewBox="0 0 280 18" class="border">
+      <path d="M0,12 L223.166144,12 C217.241379,12 217.899687,12 225.141066,12 C236.003135,12 241.9279,12 249.827586,12 C257.727273,12 264.639498,12 274.514107,12 C281.097179,12 281.755486,12 276.489028,12"></path>
+    </svg>
+    <svg width="14px" height="12px" viewBox="0 0 14 12" class="check">
+      <path d="M1 7 5.5 11 L13 1"></path>
+    </svg>
+  </label>
+  </form>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-primary" type="button" id="submitbtn" onclick="submit()">Continuer</button>
+
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+<script src="./assets/js/firestart.js"></script>
+<script>
+    firebase.storage();
+  </script>
+  <script src="assets/js/customize/app.js"></script>
+</body>
+</html>
